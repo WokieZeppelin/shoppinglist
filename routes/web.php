@@ -11,6 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', ['uses' => 'ProductController@index', 'as' => 'home']);
+
+
+Route::get('cart', ['uses' => 'ProductController@showcart', 'as' => 'products.showcart']);
+Route::post('products', ['uses' => 'ProductController@add', 'as' => 'products.add']);
+Route::delete('products/{id}', ['uses' => 'ProductController@destroy', 'as' => 'products.destroy']);
+
