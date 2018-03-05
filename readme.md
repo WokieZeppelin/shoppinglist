@@ -13,7 +13,7 @@ Do uruchomienia aplikacji są wymagane następujące rzeczy:
 
 - PHP 7.2.2
 - Composer 1.6.3
-- Serwer MySQL (w celu utworzenia bazy danych)
+- Serwer MySQL
 
 # Instrukcja dla Windows 10
 
