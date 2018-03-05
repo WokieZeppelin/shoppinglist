@@ -26,7 +26,7 @@ Do uruchomienia aplikacji są wymagane następujące rzeczy:
   
   - Wyszukaj *;extension=mbstrin* oraz *;extension=pdo_mysql* i usuń znak **";"**.
   
-  - Dodaj ścieżkę C:\PHP7 do zmiennych środowiskowych.
+  - Dodaj ścieżkę C:\PHP7 do [zmiennych środowiskowych](http://www.wiedzanaplus.pl/systemy-operacyjne/39-windows/95-zmienne-srodowiskowe-win10.html).
   
   - **_Sprawdź_** w wierszu poleceń, czy polecenie ```php -v``` działa prawidłowo. Taki wynik powinno zwrócić:
   ```
@@ -54,6 +54,7 @@ Do uruchomienia aplikacji są wymagane następujące rzeczy:
   ```
 ### 3. Instalacja oraz konfiguracja bazy danych
   - Pobierz i zainstaluj [najnowszą wersje MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
+  *(alternatywą może być równięż sama instalacja serwera MySQL z paczki MySQL Installer oraz inny program do zarządzania bazami np. SQLyog)*
   - Skonfiguruj połączenie z serwerem MySQL, aby działało na **_localhost_(http://127.0.0.1)** na porcie **_3306_**
   - Stwórz nową bazę danych o nazwie np. **produkty**.
 ### 4. Pobieranie i konfigurowanie aplikacji
