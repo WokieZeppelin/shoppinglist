@@ -22,11 +22,11 @@ Do uruchomienia aplikacji są wymagane następujące rzeczy:
   
   - Zmień rozszerzenie php.ini-development na **php.ini** i otwórz w edytorze tekstu.
   
-  - Wyszukaj *;extension_dir= "ext"* i usuń znak **";"**, aby odkomentować.
+  - Wyszukaj **;extension_dir= "ext"** i usuń znak **";"**, aby odkomentować.
   
-  - Wyszukaj *;extension=mbstrin* oraz *;extension=pdo_mysql* i usuń znak **";"**.
+  - Wyszukaj **;extension=mbstring** oraz **;extension=pdo_mysql** i usuń znak **";"**.
   
-  - Dodaj ścieżkę C:\PHP7 do [zmiennych środowiskowych](http://www.wiedzanaplus.pl/systemy-operacyjne/39-windows/95-zmienne-srodowiskowe-win10.html).
+  - Dodaj ścieżkę **C:\PHP7** do [zmiennych środowiskowych](http://www.wiedzanaplus.pl/systemy-operacyjne/39-windows/95-zmienne-srodowiskowe-win10.html).
   
   - **_Sprawdź_** w wierszu poleceń, czy polecenie ```php -v``` działa prawidłowo. Taki wynik powinno zwrócić:
   ```
